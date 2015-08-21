@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		442FA5F91B86839A00417470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FA5F81B86839A00417470 /* main.m */; };
 		442FA5FC1B86839A00417470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FA5FB1B86839A00417470 /* AppDelegate.m */; };
-		442FA5FF1B86839A00417470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FA5FE1B86839A00417470 /* ViewController.m */; };
 		442FA6021B86839A00417470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442FA6001B86839A00417470 /* Main.storyboard */; };
 		442FA6041B86839A00417470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442FA6031B86839A00417470 /* Assets.xcassets */; };
 		442FA6071B86839A00417470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442FA6051B86839A00417470 /* LaunchScreen.storyboard */; };
 		442FA6121B86839A00417470 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FA6111B86839A00417470 /* UITableViewController_Challenge_SolutionTests.m */; };
 		442FA61D1B86839A00417470 /* UITableViewController_Challenge_SolutionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FA61C1B86839A00417470 /* UITableViewController_Challenge_SolutionUITests.m */; };
+		442FA62C1B86847B00417470 /* KHMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442FA62B1B86847B00417470 /* KHMTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		442FA5F81B86839A00417470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		442FA5FA1B86839A00417470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		442FA5FB1B86839A00417470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		442FA5FD1B86839A00417470 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		442FA5FE1B86839A00417470 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		442FA6011B86839A00417470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		442FA6031B86839A00417470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442FA6061B86839A00417470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		442FA6181B86839A00417470 /* UITableViewController Challenge SolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		442FA61C1B86839A00417470 /* UITableViewController_Challenge_SolutionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionUITests.m; sourceTree = "<group>"; };
 		442FA61E1B86839A00417470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442FA62A1B86847B00417470 /* KHMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KHMTableViewController.h; path = ../KHMTableViewController.h; sourceTree = "<group>"; };
+		442FA62B1B86847B00417470 /* KHMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KHMTableViewController.m; path = ../KHMTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				442FA5FA1B86839A00417470 /* AppDelegate.h */,
 				442FA5FB1B86839A00417470 /* AppDelegate.m */,
-				442FA5FD1B86839A00417470 /* ViewController.h */,
-				442FA5FE1B86839A00417470 /* ViewController.m */,
+				442FA62A1B86847B00417470 /* KHMTableViewController.h */,
+				442FA62B1B86847B00417470 /* KHMTableViewController.m */,
 				442FA6001B86839A00417470 /* Main.storyboard */,
 				442FA6031B86839A00417470 /* Assets.xcassets */,
 				442FA6051B86839A00417470 /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442FA5FF1B86839A00417470 /* ViewController.m in Sources */,
+				442FA62C1B86847B00417470 /* KHMTableViewController.m in Sources */,
 				442FA5FC1B86839A00417470 /* AppDelegate.m in Sources */,
 				442FA5F91B86839A00417470 /* main.m in Sources */,
 			);

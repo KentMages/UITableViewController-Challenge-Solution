@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KHMTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Kent H. Mages on 8/20/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KHMTableViewController : UITableViewController
 
 @end
-
